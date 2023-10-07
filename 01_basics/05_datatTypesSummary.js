@@ -33,3 +33,31 @@ const myFirstFunction = function(){
 
 // Calling Function Directly
 // myFirstFunction();
+
+
+
+//***************************************
+
+//Stack (Primitive) Heap(Non-Primitive)
+
+let myYoutubeName = "EngineeringShortsWala"
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(anotherName)
+console.log(myYoutubeName)
+
+let userOne = {
+    name:"Aditya Thakur",
+    email:"adi@gmail.com",
+    upiId:"adi@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "aditya@gmail.com"
+
+console.log(userTwo)
+console.log(userOne)
+
+//In stack the value we get is the copy of the variable
+//In Heap we get the reference of the variable
